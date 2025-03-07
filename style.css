@@ -32,14 +32,14 @@ body {
   height: 36%;
   width: 100%;
   border-radius: 24px 24px 0 0;
-  background-color:aquamarine;
+  background-color:rgb(74, 138, 175);
 }
 .image {
   position: relative;
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background-color: #4070f4;
+  background-color: black;
   padding: 3px;
   margin-bottom: 10px;
 }
@@ -64,7 +64,7 @@ body {
   font-size: 15px;
   font-weight: 400;
 }
-.profile-card .media-buttons:hover {
+.profile-card .media-buttons {
   display: flex;
   align-items: center;
   margin-top: 15px;
@@ -106,17 +106,20 @@ body {
   display: flex;
   align-items: center;
   margin-top: 25px;
+ ;
+ 
 }
 .analytics .data {
   display: flex;
   align-items: center;
-  color: #da1515;
+  color: #7a3f3f;
   padding: 0 20px;
-  border-right: 2px solid #e7e7e7;
+  border-right: 2px solid #7a3f3f;
 }
 .data i {
   font-size: 18px;
   margin-right: 6px;
+  
 }
 .data:last-child {
   border-right: none;
