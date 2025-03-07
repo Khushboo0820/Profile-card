@@ -32,7 +32,7 @@ body {
   height: 36%;
   width: 100%;
   border-radius: 24px 24px 0 0;
-  background-color: #4070f4;
+  background-color:aquamarine;
 }
 .image {
   position: relative;
@@ -64,7 +64,7 @@ body {
   font-size: 15px;
   font-weight: 400;
 }
-.profile-card .media-buttons {
+.profile-card .media-buttons:hover {
   display: flex;
   align-items: center;
   margin-top: 15px;
@@ -110,7 +110,7 @@ body {
 .analytics .data {
   display: flex;
   align-items: center;
-  color: #333;
+  color: #da1515;
   padding: 0 20px;
   border-right: 2px solid #e7e7e7;
 }
